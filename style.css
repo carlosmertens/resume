@@ -6,8 +6,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  margin-left: 10px;
+  font-size: 18px;
 }
 
 h1,
@@ -16,24 +15,63 @@ h2 {
 }
 
 h1 {
-  font-size: 400%;
-  margin: 60px 0;
+  font-size: 450%;
 }
 
 h2 {
-  font-size: 150%;
-  margin: 20px 0;
+  font-size: 200%;
+  padding: 20px 0 5px 0;
 }
 
-.education ul li {
-  margin-bottom: 30px;
+.container {
+  width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.upper-list ul {
-  margin-bottom: 50px;
+/* ********** HEADER-SECTION ********** */
+
+.header-section {
+  padding-top: 20px;
 }
 
-.upper-list ul {
-  padding-left: 40px;
-  list-style-type: square;
+.profile-title {
+  width: 75%;
+  float: left;
+  text-align: center;
+}
+
+.profile-info {
+  width: 25%;
+  float: right;
+  padding-left: 10px;
+}
+.profile-info ul {
+  list-style: none;
+}
+
+/* ********** MAIN-SECTION ********** */
+.main-section {
+  width: 75%;
+  float: left;
+  padding-left: 10px;
+}
+
+.projects ul {
+  list-style: none;
+}
+
+.experience ul li {
+  margin-left: 60px;
+}
+
+/* ********** SIDE-SECTION ********** */
+.side-section {
+  width: 25%;
+  float: right;
+  padding-left: 10px;
+}
+
+.side-section ul {
+  list-style: none;
 }
