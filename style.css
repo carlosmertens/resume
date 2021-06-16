@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 h1,
@@ -24,7 +24,7 @@ h2 {
 }
 
 .container {
-  width: 1140px;
+  width: 1024px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -32,19 +32,25 @@ h2 {
 /* ********** HEADER-SECTION ********** */
 
 .header-section {
+  position: relative;
   padding-top: 20px;
+  margin-bottom: 50px;
 }
 
 .profile-title {
   width: 75%;
-  float: left;
   text-align: center;
 }
 
+.profile-title img {
+  border-radius: 50%;
+}
+
 .profile-info {
+  position: absolute;
+  top: 15px;
+  right: 0;
   width: 25%;
-  float: right;
-  padding-left: 10px;
 }
 .profile-info ul {
   list-style: none;
